@@ -22,8 +22,8 @@ def get_image_list():
 if __name__ == '__main__':
     ...
     images = get_image_list()
-    print(f'your images are: {','.join(images)}.')
+    print(f'your images are: {', '.join(images)}.')
     for image in images:
-        recognize_text_from_image(f'{image}.jpg')
+        recognize_text_from_image(f'images/{image}.jpg')
         
     
